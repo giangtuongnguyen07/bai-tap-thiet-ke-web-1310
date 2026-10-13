@@ -1,0 +1,21 @@
+/* CSS bổ sung hỗ trợ tùy biến thêm cho Tailwind CSS */
+
+/* Animation tùy biến mượt mà cho Mobile Menu */
+#mobile-menu {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Tùy chỉnh thanh cuộn Scrollbar cho đẹp mắt */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #fef3c7;
+}
+::-webkit-scrollbar-thumb {
+    background: #d97706;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #b45309;
+}
